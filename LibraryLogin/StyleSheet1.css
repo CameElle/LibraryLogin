@@ -1,0 +1,60 @@
+﻿/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for main container */
+.frame {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Styles for table */
+.table {
+    margin-top: 20px;
+}
+
+.auto-style1 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.auto-style2 {
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.auto-style3 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for form elements */
+input[type="text"], input[type="file"], input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type="submit"]:hover {
+        background-color: #3e8e41;
+    }
+
+
